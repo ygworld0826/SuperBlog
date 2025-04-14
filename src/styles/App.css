@@ -1,0 +1,185 @@
+/* 기존 스타일 유지 */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-nav {
+  background-color: #1a252f;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo h1 {
+  color: white;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #21a1f1;
+}
+
+.App-logo {
+  height: 8vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-header h2 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.App-header p {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.App-footer {
+  background-color: #1a252f;
+  padding: 15px;
+  color: white;
+  margin-top: 20px;
+}
+
+.App-footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.App-link:hover {
+  color: #21a1f1;
+}
+
+.post-list {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.post-preview {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.post-preview h2 {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+}
+
+.post-preview p {
+  margin: 5px 0;
+}
+
+.post-form {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.post-form div {
+  margin-bottom: 15px;
+}
+
+.post-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.post-form input,
+.post-form textarea,
+.post-form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.post-form textarea {
+  height: 100px;
+}
+
+.post-form button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.post-form button:hover {
+  background-color: #21a1f1;
+}
+
+/* 필터링 드롭다운 스타일 추가 */
+.filter-section {
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.filter-section label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.filter-section select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
